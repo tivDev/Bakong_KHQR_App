@@ -1,0 +1,77 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-12-17 10:03:21.675569",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "from_account_id",
+  "is_success",
+  "description",
+  "column_break_hbpb",
+  "to_account_id",
+  "currency_type",
+  "amount"
+ ],
+ "fields": [
+  {
+   "fieldname": "from_account_id",
+   "fieldtype": "Data",
+   "label": "From Account Id"
+  },
+  {
+   "fieldname": "is_success",
+   "fieldtype": "Select",
+   "label": "Is Success",
+   "options": "Failure\nSuccess"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Data",
+   "label": "Description"
+  },
+  {
+   "fieldname": "column_break_hbpb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "to_account_id",
+   "fieldtype": "Data",
+   "label": "To Account Id"
+  },
+  {
+   "fieldname": "currency_type",
+   "fieldtype": "Data",
+   "label": "Currency Type"
+  },
+  {
+   "fieldname": "amount",
+   "fieldtype": "Currency",
+   "label": "Amount"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-12-17 10:09:57.181819",
+ "modified_by": "Administrator",
+ "module": "Bakong KHQR",
+ "name": "Transactions Payment",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

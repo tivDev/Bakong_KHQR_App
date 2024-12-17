@@ -1,0 +1,107 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-12-17 09:51:18.068546",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "bank_account",
+  "amount",
+  "currency",
+  "phone_number",
+  "store_label",
+  "column_break_uqgn",
+  "merchant_name",
+  "merchant_city",
+  "bill_number",
+  "terminal_label"
+ ],
+ "fields": [
+  {
+   "fieldname": "bank_account",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Bank Account",
+   "reqd": 1
+  },
+  {
+   "fieldname": "amount",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Amount",
+   "reqd": 1
+  },
+  {
+   "fieldname": "currency",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Currency",
+   "options": "KHR\nUSD",
+   "reqd": 1
+  },
+  {
+   "fieldname": "phone_number",
+   "fieldtype": "Phone",
+   "in_list_view": 1,
+   "label": "Phone Number",
+   "reqd": 1
+  },
+  {
+   "fieldname": "store_label",
+   "fieldtype": "Data",
+   "label": "Store Label",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_uqgn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "merchant_name",
+   "fieldtype": "Data",
+   "label": "Merchant Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "merchant_city",
+   "fieldtype": "Data",
+   "label": "Merchant City",
+   "reqd": 1
+  },
+  {
+   "fieldname": "bill_number",
+   "fieldtype": "Data",
+   "label": "Bill Number",
+   "reqd": 1
+  },
+  {
+   "fieldname": "terminal_label",
+   "fieldtype": "Data",
+   "label": "Terminal Label",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2024-12-17 09:57:23.923620",
+ "modified_by": "Administrator",
+ "module": "Bakong KHQR",
+ "name": "Receiver Bakong Account",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
